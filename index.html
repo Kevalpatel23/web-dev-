@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L-Morpheus personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8f8733ebb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo-removebg-preview.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contanct">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Penetration Tester/Front-End Dev</p>
+            <h1>Hi , I'm <span>Keval</span><br>patel from india</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/WhatsApp Image 2023-01-11 at 23.49.38.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>  
+                    Hello Mate!my Name is keval currently i am pursuing B-tech degree from Ganpat University, 
+                    and i constantly seeking out new opportunities to learn and grow. 
+                    I am a UI/UX Designer and a web developer. I have a passion for designing and developing websites and apps. 
+                    I am a quick learner and a team player. I am always open to new ideas and love to learn new things.
+                    I have experience of working on real time website which me and my team made for karma foundation(NGO) and also i have worked on many other projects. 
+                    Please feel free to contact me for further information or any inquiry.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>   
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Desiging web/app interfaces</li>
+                        <li><span>Hacking</span><br>WIFI Hacking and Desiging of app for it</li>
+                        <li><span>Programing skills</span><br>C/C++(intermidate),Python(advance),JAVA(intermidate),HTMLand CSS</li>
+                    </ul>
+                </div> 
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                            <li><span> 2021 - 2022</span> <br>Intership at karma NGO as a Frontend technical</li> 
+                    </ul>
+                </div> 
+                <div class="tab-contents" id="Education">
+                   <ul>
+                        
+                        <li><span> 2021-Current</span><br>Pursuing B-tech(computer science) From Ganpat University </1i>
+                        <li><span> 2021</span><br>12th from swami Narayan International School </1i>
+                   </ul>
+                </div>   
+            </div>
+        </div>
+    </div> 
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Desiging</h2>
+                <p>Web designing is the process of creating visually appealing and functional websites that can be accessed on the internet. It encompasses a wide range of tasks and skills, including layout and design, user experience (UX) and user interface (UI) design, and the development of web page components such as forms, buttons, and navigation</p>
+                <a href="https://www.interaction-design.org/literature/topics/web-design#:~:text=Web%20design%20refers%20to%20the,development%20rather%20than%20software%20development." target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-hackerrank"></i>
+                <h2>Hacking and Exploit</h2>
+                <p>Hacking refers to the practice of gaining unauthorized access to computer systems, networks, or data. It can be used for a variety of purposes, such as stealing personal information, spreading malware, or disrupting the normal operation of a system</p>
+                <a href="https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_exploitation.htm#:~:text=Exploitation%20is%20a%20piece%20of,etc.%20to%20find%20these%20vulnerabilities." target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Desiging</h2>
+                <p>App design refers to the process of designing the user interface and user experience of a mobile or web application. This can include elements such as layout, color scheme, typography, and navigation. The goal of app design is to create an intuitive and visually appealing interface that makes it easy for users to accomplish their tasks and access the information they need. A good app design should also be responsive and adaptable to different screen sizes and devices.</p>
+                <a href="https://en.wikipedia.org/wiki/Mobile_app_development" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="image of my work" >
+                <div class="layer">
+                    <h3>Karma Foundation website</h3>
+                    <p> In this website I have made mailer services and some other pages in fronted side</p>
+                    <a href="https://www.karmafoundation.co/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="image of my work" >
+                <div class="layer">
+                    <h3>Git hub</h3>
+                    <p>For other project do  vist my git hub repo</p>
+                    <a href="https://github.com/Kevalpatel23" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="image of my work" >
+                <div class="layer">
+                    <h3>Hack The Box</h3>
+                    <p>Do Check out My Jounery At the hack box</p>
+                    <a href="https://github.com/Kevalpatel23" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Kevalpatel23" target="_blank" class="btn">See More</a>
+    </div>
+</div>
+<div id="contanct">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> patelkevalnitinbhai2@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9999999999</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/keval_patel_2971?igshid=NTA5ZTk1NTc=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/keval-patel-76902221b" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Kevalpatel23" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Dwonload CV</a>
+            </div>
+            <div class="contact-right">
+               <form name="'submit-to-google-sheet">
+                  <input type="text" placeholder="Your Name" name="Name" required>
+                  <input type="email" placeholder="Your Email" name="Email" required>
+                  <textarea placeholder="Your Message" name="Message" rows="6"></textarea>
+                  <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="thanku">
+        <p>Thank You For Visting <i class="fa-solid fa-heart-pulse"></i> My  Portfolio. Do Tell Us About Your Expericence</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks ){
+           tablink.classList . remove ("active-link") ;
+        }
+       for (tabcontent of tabcontents){ 
+           tabcontent.classList . remove ("active-tab") ;
+       }
+       event.currentTarget.classList . add ("active-link") ;
+       document.getElementById(tabname).classList.add ("active-tab") ;
+    }
+</script>
+
+<script>
+    var sidemen =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemen.style.right = "0";
+    }
+    function closemenu(){
+        sidemen.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
